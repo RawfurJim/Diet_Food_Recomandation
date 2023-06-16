@@ -1,4 +1,4 @@
-# Personalized_Diet_Recommendation_System
+# Diet_Food_Recomandation
 ### A Flask-based web application leveraging the power of Machine Learning to suggest personalized dietary recommendations.
 
 ![screencast-bpconcjcammlapcogcnnelfmaeghhagj-2023 06 16-12_17_50](https://github.com/RawfurJim/Personalized_Diet_Recommendation_System/assets/64610564/afd6576f-2e19-4b50-a344-bd036f16b369)
@@ -32,14 +32,18 @@ The system uses the K-nearest Neighbors algorithm to recommend foods based on th
 To facilitate user-friendly interaction with the recommendation system, a Flask web application has been developed. The user inputs their details, and the system computes the BMR and recommends a list of suitable food items.
 
 #### Technologies
+.pandas
+.numpy
+.seaborn
+.matplotlib
+.scikit-learn
+.catboost
+.xgboost
+.Flask
+.dill
+.pickle
+.requests
 
-•	Python: 3.x
-•	Flask: 2.x
-•	Scikit-learn: 0.24.x
-•	Pandas: 1.x
-•	Numpy: 1.x
-•	RapidAPI
-•	Requests: 2.x
 
 #### Future Scope
 
