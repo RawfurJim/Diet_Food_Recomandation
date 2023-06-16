@@ -31,7 +31,7 @@ class DataTransformation:
                 if i == "['brunch']":
                 
                     new_mealtype.append(['breakfast', 'lunch/dinner'])
-                    print(i)
+                
                     
                     
                 elif i == "['teatime']":
