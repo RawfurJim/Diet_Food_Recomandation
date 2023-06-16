@@ -58,7 +58,7 @@ class DataTransformation:
             data = pd.concat([data, meal_df1], axis=1)
             
             # Your conditional operation
-            a = data.iloc[:, 1]
+            a = [i % 10 + 1 for i in range(100)]
             food_list = []
             for j, i in enumerate(a) :
     

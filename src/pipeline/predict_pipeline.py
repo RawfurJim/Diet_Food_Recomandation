@@ -52,7 +52,7 @@ class PredictPipeline:
 
             food = []
             for i in merged_list:
-                list = [data.loc[i, 'food_name'], data.loc[i, 'image'], data.loc[i, 'food_calories'], data.loc[i,'food_healthlabel']]
+                list = [data.loc[i, 'food_name'], data.loc[i, 'image'], data.loc[i, 'food_calories'], data.loc[i,'food_healthLabels']]
                 food.append(list)
 
             result = {'recomanded_food': food, 'message': user_input['message'], 'BMI': user_input['BMI'], 'cal': user_input['cal']}
