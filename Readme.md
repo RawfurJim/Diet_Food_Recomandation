@@ -1,7 +1,8 @@
 # Personalized_Diet_Recommendation_System
 ### A Flask-based web application leveraging the power of Machine Learning to suggest personalized dietary recommendations.
 
-file:///C:/Users/HP/Downloads/screencast-bpconcjcammlapcogcnnelfmaeghhagj-2023.06.16-12_17_50.gif
+![screencast-bpconcjcammlapcogcnnelfmaeghhagj-2023 06 16-12_17_50](https://github.com/RawfurJim/Personalized_Diet_Recommendation_System/assets/64610564/afd6576f-2e19-4b50-a344-bd036f16b369)
+
 
 ## Table of Contents
 
