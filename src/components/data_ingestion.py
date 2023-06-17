@@ -25,7 +25,7 @@ class DataIngestion:
         url = "https://edamam-recipe-search.p.rapidapi.com/search"
         querystring = {"q": food_type}
         headers = {
-            "X-RapidAPI-Key": "Get this api in RapidApi.com.. diet food api../ not authorized to published",
+            "X-RapidAPI-Key": "d745a83928msh0f907c207d66165p18aad7jsn5e443a78f90b",
             "X-RapidAPI-Host": "edamam-recipe-search.p.rapidapi.com"
         }
         
