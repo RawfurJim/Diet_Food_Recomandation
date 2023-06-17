@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,redirect, url_for
 import pickle
 from src.pipeline.predict_pipeline import PredictPipeline
 from src.utils import calculate_calory_u
@@ -12,10 +12,7 @@ pipeline = PredictPipeline()
 
 @app.route('/')
 def index():
-    return render_template('index.html',
-                           food_name = list(poplar_df['food_name'].values),
-                           food_image = list(poplar_df['image'].values),
-                           food_healthlabel = list(poplar_df['food_healthLabels'].values))
+    return redirect(url_for('recomand_ui'))
 
 @app.route('/recommended')
 def recomand_ui():
