@@ -7,6 +7,5 @@ catboost
 xgboost
 Flask
 dill
-pickle
-requests
+
 -e .
